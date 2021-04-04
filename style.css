@@ -1,0 +1,257 @@
+body{
+   font-family: "Montserrat";
+   text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.black{
+  color: black;
+}
+
+/*headings*/
+
+.big-headings{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*container section*/
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*sections*/
+.colored-section{
+    background-color:#838ec6;
+    color: #fff;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/*title section*/
+
+#title{
+    text-align: left;
+    background-image: url("images/donation.png");
+    background-repeat: no-repeat;
+    background-color: #838ec6;
+    background-position:90%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 19px;
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* buttons */
+.download-button{
+  margin: 5% 3% 5% 0
+}
+
+/* title image */
+.title-img{
+  width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 35%;
+}
+
+.icon{
+  color: #838ec6;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/* feature section */
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+
+.icon:hover{
+  color: #ecbbcd;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #838ec6;
+}
+
+.toppadding{
+  padding-top: 20px;
+}
+.container-fluid2{
+  padding: 50px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.gallery{
+  width: 600px;
+  height: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+
+#press{
+  background-color: #838ec6;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* Show in Large desktops and laptops */
+@media (min-width: 1200px) {
+
+  #title{
+      text-align: left;
+      background-image: url("images/donation.png");
+      background-repeat: no-repeat;
+      background-color: #838ec6;
+      background-position:90%;
+  }
+
+}
+
+/*Hide in Other Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #title{
+        background-image: none;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #title{
+      background-image: none;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+          #title{
+              background-image: none;
+          }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  #title{
+      background-image: none;
+  }
+
+}
+
+/*footer*/
+.sicon{
+  margin: 20px 10px;
+    color: #838ec6;
+    font-size: 2rem;
+}
+
+.sicon:hover{
+  color: #ecbbcd;
+}
+
+.cta {
+	display: inline-block;
+	border: 15px solid white;
+  background-color: white;
+}
+
+.cta:hover{
+  background-color: #ecbbcd;
+  border: 20px solid #ecbbcd;
+}
