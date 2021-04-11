@@ -79,16 +79,8 @@ p{
 }
 
 /* buttons */
-.download-button{
+.donate-button{
   margin: 5% 3% 5% 0
-}
-
-/* title image */
-.title-img{
-  width: 60%;
-   transform: rotate(25deg);
-   position: absolute;
-   right: 35%;
 }
 
 .icon{
@@ -114,9 +106,9 @@ p{
   color: #ecbbcd;
 }
 
-/* testimonial section */
+/* gallery section */
 
-#testimonials {
+#gallery {
   background-color: #838ec6;
 }
 
@@ -127,11 +119,6 @@ p{
   padding: 50px;
 }
 
-.testimonial-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 .gallery{
   width: 600px;
   height: 300px;
@@ -139,34 +126,16 @@ p{
   display: inline-block;
 }
 
-#press{
-  background-color: #838ec6;
-  padding-bottom: 3%;
-}
 
-.press-logo{
-  width: 13%;
-  margin: 20px 20px 50px;
-}
+/* about section */
 
-/* pricing section */
-
-#pricing{
+#about{
   padding: 100px;
 }
 
 .section-heading{
   font-size: 3rem;
   line-height: 1.5;
-}
-
-.price-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-col{
-  padding: 3% 2%
 }
 
 @media (max-width: 1028px) {
